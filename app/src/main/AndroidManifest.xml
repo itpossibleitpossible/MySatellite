@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ymw.mysatellite">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/first"
+        android:label="微小卫星"
+        android:roundIcon="@drawable/first"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".zaiGuiWeiXing" />
+        <activity android:name=".zhuangTaiGuanCha" />
+        <activity android:name=".ziTaiKongZhi" />
+        <activity android:name=".ceKongJiShu" />
+        <activity android:name=".ziTaiGuiDao" />
+        <activity android:name=".zongHeDianZi" />
+        <activity android:name=".jieGouJiShu" />
+        <activity android:name=".reKongJiShu" />
+        <activity android:name=".diMianCeShi" />
+        <activity android:name=".guanYuWoDe" />
+        <activity android:name=".guanYuWeiXiao"></activity>
+    </application>
+
+</manifest>
